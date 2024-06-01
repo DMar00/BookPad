@@ -18,3 +18,12 @@ BookPad allows users to publish and read stories created by other users of the p
 - Backend: Java
 - Database: MySQL
 
+## Documentation
+
+The documentation for this project can be found in the `Documentation` folder.
+
+## Code
+
+The source code for the web application can be found in the `WebApp` folder.
+
+
