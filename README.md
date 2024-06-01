@@ -1,4 +1,4 @@
-# BookPad
+# BookPad :books:	
 
 BookPad is a web platform developed as part of the software engineering project for the third year of the Bachelor's degree in Computer Science at the University of Salerno. This platform draws inspiration from the famous website Wattpad.
 
