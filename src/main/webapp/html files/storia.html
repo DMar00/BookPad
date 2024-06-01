@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BookPad-Nome Storia</title>
+    <link href="../css/bp-styles.css" type="text/css" rel="stylesheet">
+    <link href="../css/bp-log.css" type="text/css" rel="stylesheet">
+    <link rel="icon" href="../assets/ico/purpleheart.ico" type="image/png">
+    <!--Meta-->
+    <meta name="keywords" content="socialnetwork , social , chat , storie , books , read , ebook , stories , story , friends , libri"/>
+    <meta name="copyright" content="Marica & Marianna"/>
+    <meta name="author" content="Marica & Marianna"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="charset" content="utf-8"/>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!--Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Navbar log-->
+<div class="bp-nav-container">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg my-nav">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="my-menu">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="../assets/svg/logo.svg" alt="logo">
+                    <span class="first">B</span><span class="txt">ook</span>
+                    <span class="second">P</span><span class="txt">ad</span>
+                </a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-lg-0">
+                        <form class="my-search  me-4">
+                            <div class="content">
+                                <input class="" type="text" placeholder="Search ..." aria-label="Search">
+                                <button class="" type="submit">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Generi</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Genere 1</a></li>
+                                <li><a class="dropdown-item" href="#">Genere 2</a></li>
+                                <li><a class="dropdown-item" href="#">Genere 3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav mb-2 mb-lg-0 me-0">
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link" href="#">Profilo</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center me-4">
+                            <a class="nav-link logout" href='${pageContext.request.contextPath}/Logout'>
+                                Logout
+                            </a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link switch-mode-icon">
+                                <i class="bi switch-mode-style"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<!--------------------Page---------------------->
+    <div class="bp-single-page">
+        <div class="container-fluid">
+            <div class="container-page">
+                <div class="box">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="">
+                                <div class="row">
+
+                                    <div class="col-sm-12 col-lg-4 col-md-12 story-img d-flex justify-content-center">
+                                        <img class="story-image" src="../assets/img/lib.jpg">
+                                    </div>
+
+                                    <div class="col-sm-12 col-lg-8 col-md-12">
+                                        <h1>Titolo</h1>
+                                        <h6>by @<a href="#" class="user-writer">username</a></h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                        <div class="row d-inline-block">
+                                            <h4>Hashtags</h4>
+                                            <div class="row d-inline justify-content-center" style="margin-left: auto;">
+                                                <a href="#" class="hashtag">Tag1</a>
+                                                <a href="#" class="hashtag">Tag2</a>
+                                                <a href="#" class="hashtag">Tag3</a>
+                                                <a href="#" class="hashtag">Tag4</a>
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-center" style="margin-top: 30px; margin-bottom: 30px;">
+                                            <div class="col-sm-4">
+                                                <div class="row">
+                                                    <div class="col-12 justify-content-center d-flex">
+                                                        <svg class="my-svg" width="24px" height="24px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                            <title>bookmark</title>
+                                                            <path d="M26 1.25h-20c-0.414 0-0.75 0.336-0.75 0.75v0 28.178c0 0 0 0 0 0.001
+                                                                    0 0.414 0.336 0.749 0.749 0.749 0.181 0 0.347-0.064 0.476-0.171l-0.001
+                                                                    0.001 9.53-7.793 9.526 7.621c0.127 0.102 0.29 0.164 0.468 0.164 0.414 0
+                                                                    0.75-0.336 0.751-0.75v-28c-0-0.414-0.336-0.75-0.75-0.75v0zM25.25
+                                                                    28.439l-8.781-7.025c-0.127-0.102-0.29-0.164-0.468-0.164-0.181
+                                                                    0-0.347 0.064-0.477 0.171l0.001-0.001-8.775 7.176v-25.846h18.5z">
+                                                            </path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <h3 class="num">Salva storia nella tua biblioteca</h3>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="row">
+                                                    <div class="col-12 justify-content-center d-flex">
+                                                        <svg class="my-svg" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                                            <path d="M12 21.593c-5.63-5.539-11-10.297-11-14.402 0-3.791 3.068-5.191 5.281-5.191
+                                                                    1.312 0 4.151.501 5.719 4.457 1.59-3.968 4.464-4.447 5.726-4.447 2.54 0 5.274 1.621
+                                                                    5.274 5.181 0 4.069-5.136 8.625-11 14.402m5.726-20.583c-2.203 0-4.446 1.042-5.726
+                                                                    3.238-1.285-2.206-3.522-3.248-5.719-3.248-3.183 0-6.281 2.187-6.281 6.191 0 4.661
+                                                                    5.571 9.429 12 15.809 6.43-6.38 12-11.148 12-15.809 0-4.011-3.095-6.181-6.274-6.181"/>
+                                                            </path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <h4 class="num">200 Mi piace</h4>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="row">
+                                                    <div class="col-12 justify-content-center d-flex">
+                                                        <svg class="my-svg" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M8.2881437,19.1950792 C8.38869181,19.1783212 8.49195996,19.1926955 8.58410926,19.2362761
+                                                                    C9.64260561,19.7368747 10.8021412,20 12,20 C16.418278,20 20,16.418278 20,12 C20,7.581722
+                                                                    16.418278,4 12,4 C7.581722,4 4,7.581722 4,12 C4,13.7069096 4.53528582,15.3318588 5.51454846,16.6849571
+                                                                    C5.62010923,16.830816 5.63909672,17.022166 5.5642591,17.1859256 L4.34581002,19.8521348
+                                                                    L8.2881437,19.1950792 Z M3.58219949,20.993197 C3.18698783,21.0590656 2.87870208,20.6565881
+                                                                    3.04523765,20.2921751 L4.53592782,17.0302482 C3.54143337,15.5576047 3,13.818993 3,12 C3,7.02943725
+                                                                    7.02943725,3 12,3 C16.9705627,3 21,7.02943725 21,12 C21,16.9705627 16.9705627,21 12,21 C10.707529,21
+                                                                    9.4528641,20.727055 8.30053434,20.2068078 L3.58219949,20.993197 Z"/>
+                                                            </path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <h4 class="num">200 Commenti</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="page-box mt-3">
+                            <div class="row">
+
+                                <div class="col-10">
+                                    <div class="row">
+                                        <div class="col-12 d-flex justify-content-center">
+                                            <h3>Capitolo 1</h3>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-2">
+
+                                    <div id="cap-content">
+                                        <button class="btn-1 btn-cap">Capitolo 1</button>
+                                        <button class="btn-1 btn-cap">Capitolo 2</button>
+                                        <button class="btn-1 btn-cap">Capitolo 3</button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div id="comment" class="row justify-content-center">
+
+                                <div class="col-sm-12 col-lg-6 col-md-12">
+                                    <div class="col-sm-1 d-inline justify-content-center">
+                                        <img class="avatar" style="border: none;" src="../DBImages/default/Avatar.png">
+                                    </div>
+
+                                    <div class="row d-inline-block viewCom">
+                                        <div class="col-sm-10">
+                                            <textarea name="commenti" class="myForm-com"></textarea><br>
+                                            <button class="btn-1">Commenta</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12 col-lg-6 col-md-12">
+                                    <div class="row d-inline-block viewCom">
+                                        <div class="comment-1 myScrollbar">
+                                            <div class="mt-4">
+                                                <img src="../DBImages/default/Avatar.png" alt="" class="rounded-circle" width="40" height="40">
+                                                <h5>Jhon Doe</h5> <span>- 20 October, 2018</span> <br>
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus numquam assumenda hic aliquam vero sequi velit molestias doloremque molestiae dicta?</p>
+                                            </div>
+                                            <hr>
+                                            <div class="mt-4">
+                                                <img src="../DBImages/default/Avatar.png" alt="" class="rounded-circle" width="40" height="40">
+                                                <h5>Jhon Doe</h5> <span>- 20 October, 2018</span> <br>
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus numquam assumenda hic aliquam vero sequi velit molestias doloremque molestiae dicta?</p>
+                                            </div>
+                                            <hr>
+                                            <div class="mt-4">
+                                                <img src="../DBImages/default/Avatar.png" alt="" class="rounded-circle" width="40" height="40">
+                                                <h5>Jhon Doe</h5> <span>- 20 October, 2018</span> <br>
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus numquam assumenda hic aliquam vero sequi velit molestias doloremque molestiae dicta?</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------Footer----------------->
+<footer>
+    <span>Copyright &#169; 2023 - BookPad 	&hearts;</span>
+</footer>
+<!---------------------Script----------------->
+<script src="../js/switch.js"></script>
+</body>
+</html>

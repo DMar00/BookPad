@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <title>BookPad-Username</title>
+  <link href="../css/bp-styles.css" type="text/css" rel="stylesheet">
+  <link href="../css/bp-log.css" type="text/css" rel="stylesheet">
+  <link rel="icon" href="../assets/ico/purpleheart.ico" type="image/png">
+  <!--Meta-->
+  <meta name="keywords" content="socialnetwork , social , chat , storie , books , read , ebook , stories , story , friends , libri"/>
+  <meta name="copyright" content="Marica & Marianna"/>
+  <meta name="author" content="Marica & Marianna"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="charset" content="utf-8"/>
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <!--Bootstrap icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!--JQuery-->
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navbar log-->
+  <div class="bp-nav-container">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg my-nav">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="my-menu">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <img src="../assets/svg/logo.svg" alt="logo">
+            <span class="first">B</span><span class="txt">ook</span>
+            <span class="second">P</span><span class="txt">ad</span>
+          </a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-lg-0">
+              <form class="my-search  me-4">
+                <div class="content">
+                  <input class="" type="text" placeholder="Search ..." aria-label="Search">
+                  <button class="" type="submit">
+                    <i class="bi bi-search"></i>
+                  </button>
+                </div>
+              </form>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Generi</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Genere 1</a></li>
+                  <li><a class="dropdown-item" href="#">Genere 2</a></li>
+                  <li><a class="dropdown-item" href="#">Genere 3</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0 me-0">
+              <li class="nav-item d-flex align-items-center">
+                <a class="nav-link" href="#">Profilo</a>
+              </li>
+              <li class="nav-item d-flex align-items-center me-4">
+                <a class="nav-link logout" href='${pageContext.request.contextPath}/Logout'>
+                  Logout
+                </a>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <a class="nav-link switch-mode-icon">
+                  <i class="bi switch-mode-style"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!---------------------Page----------------->
+  <div class="bp-single-page">
+    <div class="container-fluid">
+      <div class="container-page">
+        <div class="row">
+          <div class="col-lg-7 col-md-12 mt-3">
+            <div class="box d-flex flex-row h-100">
+              <div class="left-side-user-info">
+                <img class="avatar-l" src="../DBImages/default/Avatar.png">
+              </div>
+              <div>
+                <span class="username">username_00</span>
+                <div class="about">
+                  <span class="title">About...</span>
+                  <span id="bio">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly.</span>
+                </div>
+                <div class="mt-3">
+                  <button class="btn-1">
+                    <i class="bi bi-gear-fill"></i>
+                    Impostazioni
+                  </button>
+                  <button class="btn-1">
+                    <i class="bi bi-plus-lg"></i>
+                    Follow
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12 mt-3">
+            <div class="box d-flex flex-column h-100">
+              <div class="info-user">
+                <div>
+                  <div>
+                    <i class="bi bi-book-fill"></i>
+                    <span class="num">395</span>
+                    <span class="desc">Storie</span>
+                  </div>
+                  <div>
+                    <i class="bi bi-bookmarks-fill"></i>
+                    <span class="num">12</span>
+                    <span class="desc">Salvate</span>
+                  </div>
+                  <div>
+                    <i class="bi bi-person-fill"></i>
+                    <span class="num">325</span>
+                    <span class="desc">Followings</span>
+                  </div>
+                  <div>
+                    <i class="bi bi-person-fill"></i>
+                    <span class="num">425</span>
+                    <span class="desc">Followers</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <div class="page-box mt-3">
+              <h4 class="gen">La mia biblioteca</h4>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 d-flex justify-content-center">
+                  <div class="story-card">
+                    <img src="../assets/img/no-image.jpg" alt="cover">
+                    <div class="txt">
+                      <span class="title">Titolo storia</span>
+                      <a class="username" href="">username</a>
+                      <div class="info">
+                        <div>
+                          <i class="bi bi-suit-heart-fill"></i>
+                          <span> 325</span>
+                        </div>
+                        <div>
+                          <i class="bi bi-chat-fill"></i>
+                          <span> 104</span></div>
+                        <div>
+                          <i class="bi bi-bookmark-fill"></i>
+                          <span> 126</span>
+                        </div>
+                      </div>
+                      <span class="plot">
+                                    Lorem ipsum dolor sit amet, ckinjojèokèo hihiphà 9hy08n hy9yn9 h9uhy9h kk onsectetur adipiscing elit. Maecenas qjog jgrso hsrjkèhrs rkskhs hsrkohk hrs9'h hjr'9h nuis dui mattis, aliquam ex posuere, semper ligula. Nam pulvinar lacus ut mi molestie tincidunt. Inte
+                                </span>
+                      <div class="read-row btn-container">
+                        <a href="">Leggi</a>
+                        <a href="">Rimuovi</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 d-flex justify-content-center">
+                  <div class="story-card">
+                    <img src="../assets/img/no-image.jpg" alt="cover">
+                    <div class="txt">
+                      <span class="title">Titolo storia</span>
+                      <a class="username" href="">username</a>
+                      <div class="info">
+                        <div>
+                          <i class="bi bi-suit-heart-fill"></i>
+                          <span> 325</span>
+                        </div>
+                        <div>
+                          <i class="bi bi-chat-fill"></i>
+                          <span> 104</span></div>
+                        <div>
+                          <i class="bi bi-bookmark-fill"></i>
+                          <span> 126</span>
+                        </div>
+                      </div>
+                      <span class="plot">
+                                    Lorem ipsum dolor sit amet, ckinjojèokèo hihiphà 9hy08n hy9yn9 h9uhy9h kk onsectetur adipiscing elit. Maecenas qjog jgrso hsrjkèhrs rkskhs hsrkohk hrs9'h hjr'9h nuis dui mattis, aliquam ex posuere, semper ligula. Nam pulvinar lacus ut mi molestie tincidunt. Inte
+                                </span>
+                      <div class="read-row btn-container">
+                        <a href="">Leggi</a>
+                        <a href="">Rimuovi</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 d-flex justify-content-center">
+                  <div class="story-card">
+                    <img src="../assets/img/no-image.jpg" alt="cover">
+                    <div class="txt">
+                      <span class="title">Titolo storia</span>
+                      <a class="username" href="">username</a>
+                      <div class="info">
+                        <div>
+                          <i class="bi bi-suit-heart-fill"></i>
+                          <span> 325</span>
+                        </div>
+                        <div>
+                          <i class="bi bi-chat-fill"></i>
+                          <span> 104</span></div>
+                        <div>
+                          <i class="bi bi-bookmark-fill"></i>
+                          <span> 126</span>
+                        </div>
+                      </div>
+                      <span class="plot">
+                                    Lorem ipsum dolor sit amet, ckinjojèokèo hihiphà 9hy08n hy9yn9 h9uhy9h kk onsectetur adipiscing elit. Maecenas qjog jgrso hsrjkèhrs rkskhs hsrkohk hrs9'h hjr'9h nuis dui mattis, aliquam ex posuere, semper ligula. Nam pulvinar lacus ut mi molestie tincidunt. Inte
+                                </span>
+                      <div class="read-row btn-container">
+                        <a href="">Leggi</a>
+                        <a href="">Rimuovi</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="show-more">
+                <i class="bi bi-caret-down-fill"></i>
+                <span>Mostra Altro...</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---------------------Footer----------------->
+  <footer>
+    <span>Copyright &#169; 2023 - BookPad 	&hearts;</span>
+  </footer>
+  <!---------------------Script----------------->
+  <script src="../js/switch.js"></script>
+</body>
+</html>

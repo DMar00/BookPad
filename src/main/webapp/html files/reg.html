@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <title>BookPad-Registrazione</title>
+  <link href="../css/bp-styles.css" type="text/css" rel="stylesheet">
+  <link rel="icon" href="../assets/ico/purpleheart.ico" type="image/png">
+  <!--Meta-->
+  <meta name="keywords" content="socialnetwork , social , chat , storie , books , read , ebook , stories , story , friends , libri"/>
+  <meta name="copyright" content="Marica & Marianna"/>
+  <meta name="author" content="Marica & Marianna"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="charset" content="utf-8"/>
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <!--Bootstrap icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!--JQuery-->
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navbar-->
+  <div class="bp-nav-container">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg my-nav">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="my-menu">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <img src="../assets/svg/logo.svg" alt="logo">
+            <span class="first">B</span><span class="txt">ook</span>
+            <span class="second">P</span><span class="txt">ad</span>
+          </a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-lg-0">
+              <form class="my-search  me-4">
+                <div class="content">
+                  <input class="" type="text" placeholder="Search ..." aria-label="Search">
+                  <button class="" type="submit">
+                    <i class="bi bi-search"></i>
+                  </button>
+                </div>
+              </form>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Generi</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Genere 1</a></li>
+                  <li><a class="dropdown-item" href="#">Genere 2</a></li>
+                  <li><a class="dropdown-item" href="#">Genere 3</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0 me-0">
+              <li class="nav-item d-flex align-items-center">
+                <a class="nav-link" href="./login.html">Accedi</a>
+              </li>
+              <li class="nav-item d-flex align-items-center me-4">
+                <a class="nav-link" href="./reg.html">Registrati</a>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <a class="nav-link switch-mode-icon">
+                  <i class="bi switch-mode-style"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!--Page-->
+  <div class="bp-single-page">
+    <div class="container d-flex justify-content-center">
+      <div class="form-box reg">
+        <h3>Registrazione</h3>
+        <hr>
+        <div>
+          <form>
+            <label for="username">Username *</label>
+            <input type="text" id="username">
+            <span class="mex-err us">Formato username non valido!<br>Lunghezza 4-15<br>Almeno una lettera minuscola, nessun uderscore consecutivo, nessuna lettera maiuscola<br>Cifre consentite</p></span>
+            <label for="email">E-mail *</label>
+            <input type="email" id="email">
+            <span class="mex-err em">Formato email non valido!</span>
+            <label for="paswd">Password *</label>
+            <input type="password" id="paswd">
+            <span class="mex-err pa">Formato password non valido!<br>Almeno una lettera minuscola, una maiuscola, una cifra<br>Lunghezza minima 8 caratteri</span>
+            <input type="password" id="paswd2" placeholder="Ripeti password">
+            <span class="mex-err pa2">Le password non coincidono!</span>
+            <div>
+              <button class="btn-1">Registrati</button>
+            </div>
+          </form>
+          <span>Hai già un account? <a href="./login.html">Accedi</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---------------------Footer----------------->
+  <footer>
+    <span>Copyright &#169; 2023 - BookPad 	&hearts;</span>
+  </footer>
+  <!---------------------Script----------------->
+  <script src="../js/switch.js"></script>
+  <script src="../js/check.js"></script>
+</body>
+</html>
