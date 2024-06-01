@@ -1,0 +1,112 @@
+4.1 SCENARIO REGISTRAZIONE
+Anna è un’amante della lettura, decide quindi di creare un account. 
+Dalla home di BookPad, preme il pulsante “Registrati” sulla navbar.
+In questo modo viene reindirizzata alla pagina di registrazione in cui viene visualizzato l’apposito form, in cui inserisce i seguenti dati: 
+-	username: “anna00”
+-	e-mail: “anna@gmail.com”
+-	password: “Anna2000!!”
+- 	ripeti password: “Anna2000!!”
+
+La registrazione va a buon fine, quindi Anna viene reindirizzata alla sua home page personale, dove visualizza l’elenco delle storie pubblicate dagli utenti che eventualmente seguirà.
+Dopo aver passato un po' di tempo su BookPad, Anna decide di disconnettersi momentaneamente dalla piattaforma; quindi, clicca sul pulsante “Logout” sulla navbar.
+Anna viene così reindirizzata alla home page del sito BookPad in cui potrà successivamente riconnettersi alla piattaforma.
+
+
+4.2 SCENARIO LETTURA STORIE
+Anna si reca nuovamente sulla piattaforma BookPad, in quanto decide di voler trovare qualche storia di suo interesse da poter leggere.
+Clicca sul pulsante “Accedi” sulla navbar. In questo modo viene reindirizzata sulla pagina di accesso in cui viene visualizzato l’apposito form, in cui inserisce le sue credenziali:
+-	e-mail: “anna@gmail.com”
+-	password: “Anna2000!!”
+Le credenziali sono corrette, quindi Anna riesce ad accedere alla piattaforma e viene reindirizzata alla sua home page personale.
+Anna è amante del genere Horror, quindi clicca sul pulsante “Generi” sulla navbar e seleziona la voce “Horror”.
+Anna verrà reindirizzata sulla pagina contenente tutte le storie presenti su BookPad dal genere Horror, elencate in ordine decrescente di numero di likes, commenti e salvataggi.
+Anna scorre la lista, fin quando non trova una storia dal titolo “La casa nel bosco”. Incuriosita, clicca sul pulsante “Leggi.” Viene quindi reindirizzata sulla pagina relativa alla storia selezionata, dove può visualizzarne:
+-	Il titolo
+-	L’immagine di copertina
+-	La trama 
+-	L’autore
+-	Il genere di appartenenza
+-	Il numero di likes, commenti e salvataggi
+-	L’elenco dei commenti
+-	L’elenco degli hashtag
+-	L’elenco dei capitoli 
+Anna vuole leggere il primo capitolo della storia, quindi clicca sul pulsante “Capitolo 1” seguito dal nome del capitolo.
+Conclusa la lettura del primo capitolo, Anna decide innanzi tutto di salvare la storia nella propria biblioteca, in modo da poter leggere i successivi capitoli senza dover ricercare la storia. Clicca quindi sul pulsante “+”. Anna visualizza un messaggio che le conferma che la storia è stata aggiunta con successo alla sua biblioteca.
+Inoltre, Anna decide anche di voler lasciare un feedback alla storia, in quanto ha trovato molto interessante la lettura del primo capitolo. Quindi mette like alla storia, cliccando sul pulsante a forma di cuore e scrive un commento nell’apposito form dedicato. Clicca poi sul pulsante “Pubblica” per pubblicare il commento. Ora Anna visualizza il suo commento nell’elenco dei commenti che già erano presenti.
+Federico che è lo scrittore della storia “La casa nel bosco” legge il commento sotto la sua storia scritto da Anna, clicca sul pulsante “Rispondi”, viene visualizzato un form in cui Federico può scrivere la sua risposta al commento di Anna. Poi clicca sul pulsante “Pubblica”. Nella sezione dei commenti ora compare anche la risposta di Federico.
+Anna legge tra l’elenco degli hashtag della storia l’hashtag “#spiriti”, quindi clicca su di esso. Viene quindi reindirizzata sulla pagina contenente l’elenco di tutte le storie contenenti l’hashtag “#spiriti”.
+Anna allora decide di cercare nella barra di ricerca sulla navbar la parola chiave “zombie”. Viene poi reindirizzata sulla pagina contenente l’elenco delle storie che nel titolo hanno la parola “zombie”. 
+Anna può decidere di filtrare le storie in base a quelle che hanno “zombie” nel titolo, cliccando sul pulsante “Titolo” presente nella pagina, o tra gli hashtag, cliccando sul pulsante “Hashtag”.
+Anna vuole cercare le storie che hanno come hashtag “zombie”, quindi clicca sul pulsante “Hashtag”. Ora visualizza l’elenco di tutte le storie che hanno quell’hashtag. 
+Inoltre, può anche visualizzare l’elenco degli utenti che hanno “zombie” nell’username, cliccando sul pulsante “Utenti”.
+
+
+4.3	Scenario pubblicazione storia
+Walter è un aspirante scrittore iscritto alla piattaforma BookPad. Decide di pubblicare la sua ennesima storia, quindi una volta loggato alla piattaforma, clicca sul pulsante “Pubblica” sulla navbar.
+Walter viene reindirizzato nella pagina dedicata alla scrittura e pubblicazione della storia, in cui è presente un form in cui inserisce:
+-	titolo: “Lagune”
+-	copertina: immagine scelta come copertina della storia
+-	trama: il testo della trama della storia
+-	hashtags: “paura, bosco, suspance” separati da virgola
+-	genere: “Avventura”
+-	titolo capitolo 1: “Il mistero della città”
+-	contenuto capitolo 1: il testo del primo capitolo della storia (obbligatorio)
+Inoltre, deve inserire altri due capitoli, quindi clicca sul pulsante “Aggiungi Capitolo”. Viene così mostrato un ulteriore campo per poter inserire il titolo ed il testo del secondo capitolo. Poi clicca nuovamente “Aggiungi capitolo” per poter inserire anche il titolo ed il testo del terzo capitolo.
+Terminata la scrittura, clicca sul pulsante “Pubblica”.
+La pubblicazione è andata a buon fine, quindi Walter viene reindirizzato su una pagina contenente l’esito positivo dell’avvenuta pubblicazione, ed un pulsante “Visualizza Storia”.
+Walter clicca sul pulsante “Visualizza Storia”, viene così reindirizzato alla pagina contenente la storia appena pubblicata.
+
+
+4.4 SCENERIO VISUALIZZAZIONE PROFILI UTENTI
+Anna si trova sulla pagina della storia “Lagune” pubblicata da Walter.
+Clicca sull’username “walter_23” accanto alla voce “Autore”. Anna viene quindi reindirizzata sulla pagina del profilo di Walter.
+Una volta aperto il profilo, Anna visualizza: 
+-	L’immagine profilo 
+-	L’username
+-	La biografia
+-	Il numero di followers, followings e storie scritte
+Anna clicca sul numero di followers di Walter. Viene così caricato l’elenco degli utenti che già seguono Walter. Anna può cliccare sugli username degli utenti facenti parte della lista per visualizzarne il profilo.
+Successivamente clicca sul numero di followings, per vedere così come per i followers, la lista dei followings di Walter, quindi degli utenti seguiti da Walter.
+Anna poi è curiosa di sapere quali altre storie Walter ha scritto oltre “Lagune”. Clicca quindi sul numero di storie per visualizzare l’elenco delle storie scritte da Walter. Anna può cliccare sul pulsante “Leggi” di ogni storia per visualizzarne la relativa pagina.
+Anna è interessata al tipo di storie che scrive Walter; quindi, decide di rimanere aggiornata su ogni sua pubblicazione cliccando sul pulsante “Follow”. Una volta cliccato tale pulsante, la scritta da “Follow” diventa “Unfollow”, per far notare ad Anna che sta attualmente seguendo Walter, e che se clicca nuovamente su tale pulsante smetterà di seguirlo, così da non rimanere più aggiornata su ciò che Walter pubblica.
+Ora che Anna segue Walter vedrà nella sua home page personale, accessibile cliccando sul logo BookPad sulla navbar, tutte le storie scritte da Walter, insieme a quelle degli altri utenti da lei seguiti, in ordine cronologico, dal più recente al meno recente.
+
+
+
+4.5 VISUALIZZAZIONE PROFILO UTENTE LOGGATO
+Anna vuole personalizzare un po' il suo profilo, in modo da farsi conoscere meglio dagli altri utenti della piattaforma.
+Clicca quindi sul pulsante “Profilo” sulla navbar. Viene così reindirizzata sulla pagina del suo profilo.
+Anna nel suo profilo può fare ciò che farebbe sul di un altro utente, con in aggiunta:
+-	Un pulsante “La mia biblioteca”
+-	Un pulsante “Impostazioni”
+Tuttavia, Anna non visualizza il pulsante “Follow/Unfollow”, perché non è possibile seguire/smettere di seguire sé stessi sulla piattaforma.
+Anna clicca sul pulsante “Impostazioni”, viene così aperta una schermata in cui sono presenti delle voci:
+-	“Modifica credenziali”
+-	“Modifica immagine profilo”
+-	“Modifica Biografia”
+-	“Elimina account”
+Anna clicca prima su “Modifica biografia”, così viene aperto un apposito form per scrivere la sua nuova biografia. Una volta inserito il testo, clicca sul pulsante “Salva”. Viene così ricaricata la pagina con la sua nuova biografia.
+Poi decide di cambiare immagine profilo, quindi clicca sulla voce “Modifica immagine profilo”. Viene così aperta una finestra che consente ad Anna di scegliere un’immagine dal proprio dispositivo. Anna quindi seleziona la foto, ed una volta caricata, clicca sul pulsante “Salva”. La pagina viene ricaricata ed Anna visualizza la sua nuova immagine di profilo.
+Poi Anna decide anche di voler cambiare le sue credenziali, quindi clicca sulla voce “Modifica credenziali”. Viene aperta una schermata in cui sono presenti due voci:
+-	Una in cui è scritta la sua e-mail “anna@gmail.com” con a fianco “Modifica e-mail”
+-	Una con scritto “Modifica password”
+Anna clicca su “Modifica e-mail”, viene così aperto un form in cui inserisce la nuova e-mail “anna00@libero.com” e poi clicca sul pulsante “Salva”.
+Poi clicca su “Modifica password”, viene così aperto un form in cui inserisce la vecchia password “Anna2000!!”, la nuova password “Anna_20_!!”, e la ripetizione della nuova password “Anna_20_!!”. Poi clicca sul pulsante “Salva”.
+Poi Anna decide di continuare la lettura di una storia che aveva già iniziato a leggere. Clicca quindi sul pulsante “La mia biblioteca”. Viene così visualizzato l’elenco di tutte le storie salvate.
+Anna clicca sul pulsante “Leggi” della storia che vuole continuare a leggere. Si apre così la pagina dedicata alla storia selezionata.
+Arturo è un altro utente della piattaforma BookPad. Anche lui si trova sulla pagina del suo profilo, nella sezione “Impostazioni”. Arturo che si era iscritto alla piattaforma per sperimentare un po’ la sua scrittura capisce che non è la sua strada; infatti, le sue storie non hanno avuto molto successo. Decide allora di eliminare il suo profilo cliccando sul pulsante “Elimina account”.
+Viene visualizzato un messaggio “Sei sicuro di voler eliminare il tuo account? In caso di eliminazione tutte le storie verranno eliminate definitivamente” con due pulsanti: “SI”, “NO”.
+Arturo clicca su “SI”, vengono così eliminati il suo profilo e le sue storie, e viene reindirizzato alla home page di BookPad. Se Arturo proverà a loggarsi con le sue vecchie credenziali, queste non saranno più valide. 
+
+
+
+
+
+4.2 CASI D'USO -->VISUALIZZA STORIA, LETTURA CAPITOLO, SALVA IN BIBLIOTECA, AGGIUNGI LIKE, AGGIUNGI COMMENTO, RISPONDI COMMENTO, RICERCA STORIE CLICK HASHTAG
+ 
+4.3 CASI D'USO --> PUBBLICA STORIA, AGGIUNGI CAPITOLO, VISUALIZZA STORIA APPENA PUBBLICATA
+
+4.4 CASI D'USO --> VISUALIZZA PROFILO ALTRO UTENTE (CLICK USERNAME STORIA), VISUALIZZA LISTA FOLLOWERS-FOLLOWINGS(ALTRI), VISUALIZZA PROFILO UTENTE(CLICK IN ELENCO FOLLOWERS/FOLLOWINGS), VISUALIZZA ELENCO STORIE ALTRO UTENTE, VISUALIZZA STORIA DA(ELENCO STORIE SCRITTE DA ALTRO), FOLLOW, UNFOLLOW, HOME PERSONALE
+4.5 CASI D'USO -->  VISUALIZZAZIONE PROPRIO PROFILO, IMPOSTAZIONI, MODIFICA BIOGRAFIA, MODIFICA FOTO PROFILO, MODIFICA CREDENZIALI, MODFICA EMAIL, MODIFICA PASSWORD, VISUALIZZA BIBLIOTECA, VISUALIZZA STORIA(DA BIBLIOTECA), ELIMINA PROFILO
+
+COSA MANCA ? RIMUOVI DA BIBLIOTECA,
